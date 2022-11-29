@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jerome Viador Page</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+<section class="hero">
+	<div class="main-width">
+		<header>
+			<div class="logo">
+				<i class="fa-solid fa-j"></i>
+			</div>
+
+			<nav>
+				<div class="hamb">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+				<ul class="nav-list">
+					<li><a href="index.htm">Home</a></li>
+					<li><a href="Aboutme.html">About me</a></li>
+					<li><a href="Education.html">Education</a></li>
+					<li class="btn"><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<div class="container">
+			<div class="hero-text">
+				<h1><span class="input"></h1>
+				<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Philippines">Philippines</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+				<div class="social">
+					<a href="https://www.facebook.com/jerome.viador.96?mibextid=LQQJ4d"><i class="fa-brands fa-square-facebook"></i></a>
+					<a href="https://www.tiktok.com/@jeromeviador2103?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+					<a href="https://www.instagram.com/jeromeviador21/"><i class="fa-brands fa-square-instagram"></i></a>
+					
+			</div>
+			<button type="button" onclick="alert('My Number :090922212')">Reach me</button>
+		</div>
+
+		<div class="bottom">
+		  <p>@ 2022 Jhero - All Rights Reserved.</p>
+		</div>
+	 
+   </div>
+ </section>
+
+ <script type="text/javascript" src="js/script.js"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+ <script>
+ 	var typed = new Typed(".input", {
+ 		strings:["Share your ideas...","Give some feed back..","Message Me...","Thank you for Reaching!"], 
+ 		typeSpeed: 70,
+ 		backSpeed: 60,
+ 		loop:true
+ 	}); 
+ </script>
+</body>
+</html>
